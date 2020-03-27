@@ -1,0 +1,111 @@
+* {
+    background: rgb(184, 179, 174);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#nome {
+    color: rgb(56, 56, 134);
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.resultados {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 70px;
+    
+}
+
+.classe-corretas {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.classe-incorretas {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#corretas {
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    right: 50.5%;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+    
+    
+}
+
+#incorretas {
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 50.5%;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid black;
+    border-radius: 10%;
+       
+}
+
+#corretas-um {
+    text-align: center;
+    font-size: 20px;
+    color: darkgreen;
+    margin: 20px;
+}
+
+#corretas-dois {
+    text-align: center;
+    font-size: 20px;
+    color: darkgreen;
+    margin: 20px;
+}
+
+#corretas-tres {
+    text-align: center;
+    font-size: 20px;
+    color: darkgreen;
+    margin: 20px;
+}
+
+#incorretas-um {
+    text-align: center;
+    font-size: 20px;
+    color: darkred;
+    margin: 20px;
+}
+
+#incorretas-dois {
+    text-align: center;
+    font-size: 20px;
+    color: darkred;
+    margin: 20px;
+}
+
+#incorretas-tres {
+    text-align: center;
+    font-size: 20px;
+    color: darkred;
+    margin: 20px;
+}
+
+
